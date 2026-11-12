@@ -5,6 +5,7 @@ public class PipeCollider : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private GameObject gm;
+    public AudioClip hitAudio;
     void Start()
     {
         gm = GameObject.FindGameObjectWithTag("GameController");
@@ -20,7 +21,13 @@ public class PipeCollider : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            gm.GetComponent<GameManager>().StopGame();
+            GetComponent<AudioSource>().PlayOneShot(hitAudio); 
+            Invoke("Death", 0.5f);
         }
+    }
+
+    private void Death()
+    {
+        gm.GetComponent<GameManager>().StopGame();
     }
 }

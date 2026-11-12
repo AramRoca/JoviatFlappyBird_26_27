@@ -145,28 +145,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: got-hit-2_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 62
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 873667f1d8cabea70800000000000000
-      internalID: 8857362814272430968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: got-hit-2_1
       rect:
         serializedVersion: 2
@@ -175,7 +153,7 @@ TextureImporter:
         width: 97
         height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -188,33 +166,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: got-hit-2_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 43
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6758b138cb496a6d0800000000000000
-      internalID: -2979530566084622986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 33e54c745ef9b0e4e9006f4dba9096ef
     internalID: 0
     vertices: []
     indices: 
