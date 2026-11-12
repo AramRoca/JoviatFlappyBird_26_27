@@ -1,0 +1,9 @@
+#Flappy bird / Aram Roca
+
+#CONTROLS:
+# SPACE  per saltar
+
+#Paràmetres:
+#Script "Player"(Force: 200)
+#"Player"(Mass: 1, Angular Damping: 0.05) Per la massa a conjunt amb la força
+#Script "Background" (velocidad: 0.05) Per el fons
