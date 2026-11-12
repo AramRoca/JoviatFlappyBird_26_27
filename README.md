@@ -1,4 +1,6 @@
 #Flappy bird / Aram Roca
+#Version: Unity 6.3 LTS (6000.3.25f1)
+
 
 #CONTROLS:
 # SPACE  per saltar
